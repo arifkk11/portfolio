@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        /* background: rgb(16,210,227); */
+        background: linear-gradient(109deg, rgba(0,255,247,1) 0%, rgba(235,0,218,1) 99%);     }
+        .bg{
+            height: 600px;
+            width: 400px;
+            background-color: white;
+            position:absolute;
+            left: 450px;
+            top: 30px;
+            border-radius: 30px;
+            /* border: solid 2px grey;/ */
+            box-shadow:0 0 30px rgb(20, 20, 20);
+        }
+        .log{
+            position: absolute;
+            left: 155px;
+            top: 45px;
+            font-size: 26px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .usr{
+            position: absolute;
+            left: 30px;
+            top: 100px;
+            color: rgba(0, 0, 0, 0.445);
+        }
+        .usrtxt{
+            position: absolute;
+            left: 30px;
+            top: 130px;
+            width: 320px;
+            height: 30px;
+            border: none;
+            border-bottom: solid 2px rgba(0, 0, 0, 0.445);
+            padding-left: 3%;
+            
+        }
+        .pass{
+            position: absolute;
+            left: 30px;
+            top: 190px;
+            color: rgba(0, 0, 0, 0.445);
+
+        }
+        .passtxt{
+            padding-left: 3%;
+            position: absolute;
+            left: 30px;
+            top: 220px;
+            width: 320px;
+            height: 30px;
+            border: none;
+            border-bottom: solid 2px rgba(0, 0, 0, 0.445);
+
+        }
+        .forget{
+            position: absolute;
+            top: 260px;
+            left: 240px;
+            font-size: 13px;
+        }
+        .btn{
+            background: linear-gradient(90deg, rgba(16,210,227,1) 0%, rgba(58,71,177,1) 35%, rgba(199,0,255,1) 100%);     
+            width: 320px;
+            height: 33px;
+            border: none;
+            border-radius: 20px;
+            position: absolute;
+            left: 30px;
+            top: 300px;
+            color: white;
+
+        }
+        .usrtxt,.passtxt:focus{
+            outline: none;
+            /* border-bottom: black; */
+        }
+        .sign{
+            position: relative;
+            left: 110px;
+            top: 350px;
+            font-size: 15px;
+        }
+        .google{
+            border-radius: 90px;
+            position: relative;
+            top: 400px;
+            left: 70px;
+        }
+        .twit{
+            border-radius: 90px;
+            position: relative;
+            top: 400px;
+            left: -10px;
+
+        }
+        .face{
+            border-radius: 90px;
+            position: relative;
+            top: 400px;
+            left: -90px;
+
+
+        }
+        .acc{
+            position: relative;
+            top: 500px;
+            left: -130px;
+        }
+        .btn1{
+            position: relative;
+            top: 530px;
+            left: 160px;
+        }
+        .face:hover{
+            border-radius: 0px;
+        }
+        .twit:hover{
+            border-radius: 0px;
+        }
+        .google:hover{
+            border-radius: 0px;
+            /* transition-delay: 1s; */
+        }
+        .lock{
+            position: absolute;
+            left:22px;
+            top: 133px;
+            opacity:40%;
+        }
+        .user{
+            position: absolute;
+            left:22px;
+            top: 222px;
+
+        }
+
+</style>
+
+</head>
+<body>
+    <div class="bg">
+        <div>
+            <label for="" class="log"><b>Login</b></label>
+            <label for="" class="usr">username</label>
+            <input type="text" class="usrtxt">
+            <label for="" class="pass">password</label>
+            <input type="text" class="passtxt">
+            <label for="" class="forget">forget password?</label>
+            <button class="btn">LOGIN</button>
+            <label for="" class="sign">Or Sign up Using</label>
+            <img src="aaa.jpeg" width="30px"  class="google">
+            <img src="twit.png" width="30px" class="twit">
+            <img src="face11.png" width="30px" class="face" alt="">
+            <label for="" class="acc">Have Not Account </label>
+            <button class="btn1">sign up</button>
+            <img src="user.png" class="lock" width="25px">
+            <img src="lock.png" class="user" width="25px">
+
+
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>

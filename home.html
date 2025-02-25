@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhammed Arif</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link href="https://kit.fontawesome.com/a076d05399.js" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        /* Dark Theme Styles */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .hero-section {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+        }
+
+        .section-heading {
+            margin-bottom: 30px;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00bcd4;
+        }
+
+        .card-body {
+            background-color: #333333;
+            color: white;
+        }
+
+        .card-body img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: #1e1e1e;
+            padding: 40px 0;
+            color: white;
+        }
+
+        .social-icons a {
+            font-size: 24px;
+            color: #00bcd4;
+            margin: 0 10px;
+        }
+
+        .social-icons a:hover {
+            color: #03a9f4;
+        }
+
+        .contact-form textarea {
+            resize: none;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            margin-bottom: 30px;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #00bcd4;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #00bcd4;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #03a9f4;
+        }
+
+        .btn-primary {
+            background-color: #00bcd4;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #03a9f4;
+        }
+
+        .navbar-light .navbar-toggler-icon {
+            background-color: #00bcd4;
+        }
+
+        .form-control {
+            background-color: #333333;
+            border: 1px solid #444444;
+            color: white;
+        }
+
+        .form-control:focus {
+            background-color: #444444;
+            border-color: #00bcd4;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#">Muham</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="container">
+            <!-- <img src="b" alt="Muhammed Arif" class="img-fluid hero-image"> -->
+
+            <h1>Hi, I'm Muhammed Arif</h1>
+            <p>Python Fullstack Developer</p>
+            <a href="Arif_241002_102027.pdf" download="cv" class="btn btn-light btn-lg">Download CV</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2 class="section-heading">About Me</h2>
+            <p>I'am <b>MUHAMMED ARIF</b>,a recent B.com graduate spelaized in computer application.With a strong passion for design and development.i enjoy creating intuitive and and impactfu software and web application.my background has equipped me with both technical and creative skills, allowing me to blend functionality with asethetic.i'm eager to continue learning and take on new challenges in theworld software and web development</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-dark py-5">
+        <div class="container">
+            <h2 class="section-heading text-center">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-code fa-3x"></i>
+                    <h4>Python</h4>
+                    <p>Django, Flask,Angular,Rest Framework</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-laptop-code fa-3x"></i>
+                    <h4>Web Development</h4>
+                    <p>HTML, CSS, JavaScript, Bootstrap</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-database fa-3x"></i>
+                    <h4>Databases</h4>
+                    <p>MySQL, MongoDB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-heading text-center">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <img src="insta.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Login Page</h5>
+                            <p class="card-text">insta login page,used:html,css </p>
+                            <a href="instalogin.html" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <img src="tikinter.png" height="150px" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Tikinter</h5>
+                            <p class="card-text">add,delete and update student details, Technologies used: Python,tikinter.</p>
+                            <a href="logintikinter.py" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <img src="Bootstrap Page Layout - Google Chrome 2_25_2025 11_38_53 AM.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">add task and delete,edit. Technologies used:angular,django,sqlite.</p>
+                            <a href="https://todolist-121.netlify.app/" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <!-- <img src="Bootstrap Page Layout - Google Chrome 2_25_2025 11_38_53 AM.png" class="card-img-top" alt="Project 3"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">More projects..</h5>
+                            <p class="card-text">other project are check github..</p>
+                            <a href="https://todolist-121.netlify.app/" class="btn btn-primary">Git Hub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="bg-dark py-5">
+        <div class="container">
+            <h2 class="section-heading text-center">Contact Me</h2>
+            <form action="#" method="post">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </section> -->
+    <!-- Contact Section -->
+<section id="contact" class="bg-dark py-5">
+    <div class="container">
+        <h2 class="section-heading text-center">Contact Me</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h4>Email</h4>
+                <p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRzBlQfrDLZGrLKbVSVKxtZBbBmNDrJfKzMwBgppqWXHSBwwJCBvvBVHSDBrhTVQpCwhQVzj" class="text-white">arifkk2266@gmail.com</a></p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4>Phone</h4>
+                <p><a href="tel:+917025848318" class="text-white">7025848318</a></p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4>Address</h4>
+                <p>Othukkungal,Malappuram</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer text-center">
+        <div class="container">
+            <!-- <p>&copy; 2025 Muhammed Arif. All rights reserved.</p> -->
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Font Awesome Icons -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
